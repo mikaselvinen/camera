@@ -9,8 +9,8 @@ class camera{
 		package { 'rawtherapee':}
                 package { 'xul-ext-ublock-origin':}
 
-	file{"/etc/firefox/":
-		content => template("camera/syspref.js"),
+	file{"/etc/firefox/syspref.js.erb":
+		content => template("camera/syspref.js.erb"),
 		require => Package["xul-ext-ublock-origin"],
 	}
 
