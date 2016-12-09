@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cp -r /media/xubuntu/KINGSTON/* /home/xubuntu/Pictures/
+

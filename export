@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mkdir /media/xubuntu/KINGSTON/valmiit
+
+cp -r /home/xubuntu/Pictures/*.jpg /media/xubuntu/KINGSTON/valmiit

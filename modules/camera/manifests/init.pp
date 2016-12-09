@@ -7,5 +7,12 @@ class camera{
 		package { 'tree':}
 		package { 'darktable':}
 		package { 'rawtherapee':}
+                package { 'xul-ext-ublock-origin':}
+
+	file{"/etc/firefox/":
+		content => template("camera/syspref.js"),
+		require => Package["xul-ext-ublock-origin"],
+	}
+
 }
 
