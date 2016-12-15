@@ -1,4 +1,6 @@
 #!/bin/bash
 
-cp -r /media/xubuntu/KINGSTON/* /home/xubuntu/Pictures/
+cp -r /media/xubuntu/NIKON\ D750/DCIM/100ND750/* /home/xubuntu/Pictures/
+
+
 
